@@ -9,33 +9,33 @@
 * 事务性必须保证
 
 # 开发语言选型
-##Rust
+## Rust
 * 版本 最新稳定版
-##JavaScript
+## JavaScript
 * 版本 ES6
 *node 版本 > 8.0 
 
-#前端选型
-##小程序
+# 前端选型
+## 小程序
 * 官方原型
-##管理后台
+## 管理后台
 * https://ant.design
 
 # 运行环境选型
-##服务器 
+## 服务器 
 * 版本 Centos 7.2
-##docker
+## docker
 * 版本 最新稳定版
 
-#传输协议选型
+# 传输协议选型
 * http
 * websocket (再议)
 
-#传输数据格式选型
+# 传输数据格式选型
 * json
 * protobuf
 
-#原型图工具
+# 原型图工具
 ## Axure 
 * 版本 > 8.0
 
