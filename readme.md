@@ -42,8 +42,10 @@
 
 # rust技术选型
 * 对外提供接口开发语言选rust  网络协议http 对外传输数据格式提供json 主要和小程序的交互
-* 数据库ORM https://github.com/diesel-rs/diesel   
-* 数据库连接池 https://github.com/diesel-rs/r2d2-diesel
+* mysql数据库ORM https://github.com/diesel-rs/diesel   
+* mysql数据库连接池 https://github.com/diesel-rs/r2d2-diesel
+* redis连接库 https://github.com/mitsuhiko/redis-rs
+* redis连接池 https://github.com/sorccu/r2d2-redis
 * web 框架选择sapper 
 * mvc
 
