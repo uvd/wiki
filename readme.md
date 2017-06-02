@@ -43,32 +43,29 @@
 # rust技术选型
 * 对外提供接口开发语言选rust  网络协议http 对外传输数据格式提供json 主要和小程序的交互
 * 数据库ORM https://github.com/diesel-rs/diesel   
-* 数据库连接池 https://github.com/diesel-rs/r2d2-diesel<
+* 数据库连接池 https://github.com/diesel-rs/r2d2-diesel
 * web 框架选择sapper 
 * mvc
 
-#node 技术选型
-* ..
-
 
 # 内部服务通讯规范
-* 交互传输格式 protobuf > 3.3  </br>
-* 网络协议选http (是否2.0再议) </br>
+* 交互传输格式 protobuf >= 3.3  
+* 网络协议选http (是否2.0再议) 
 * 解析库https://github.com/stepancheg/rust-protobuf 
 
 
 # 内部系统规范 -管理后台 -商户后台 
 * 前端选 https://ant.design 
-* nodejs只提供代理不做业务逻辑，但提供拼接数据转protobuf到json和接口的缓存功能避免无限制请求后端接口 
-* 和后端rust语言交互传输格式 protobuf 
-* 网络协议http  
+* 传输数据格式 json
+* 网络协议 http 
+* 后端走rust规范
 
 
 # rust语法规范
 * 官方规范
 
 # JavaScript代码规范
-* 必须基于es6  包括node  ant.design
+* 必须基于es6 
 
 # 小程序代码规范
 * 官方规范
