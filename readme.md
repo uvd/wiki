@@ -33,7 +33,7 @@
 
 # 传输数据格式选型
 * json
-* protobuf
+* protobuf（仅用于内部通讯）
 
 # 原型图工具
 ## Axure 
@@ -46,11 +46,11 @@
 * mysql数据库连接池 https://github.com/diesel-rs/r2d2-diesel
 * redis连接库 https://github.com/mitsuhiko/redis-rs
 * redis连接池 https://github.com/sorccu/r2d2-redis
-* web 框架选择sapper 
-* mvc
+* web基础框架选择sapper  https://github.com/sappworks/sapper
 
 
-# 内部服务通讯规范
+
+# 内部服务通讯规范（暂时用不到 目前都是单机模式来搞）
 * 交互传输格式 protobuf >= 3.3  
 * 网络协议选http (是否2.0再议) 
 * 解析库https://github.com/stepancheg/rust-protobuf 
@@ -76,7 +76,7 @@
 ## 微服务
  * 服务之间保持独立性
 ## 水平扩展
- * 最差情况能通过增加配置来支撑系统增长
+ * 最差情况能通过增加配置（加机器）来支撑系统流量增长
 ## mvc
  * 前后端完全分离
 
