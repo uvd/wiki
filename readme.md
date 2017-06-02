@@ -1,10 +1,10 @@
 #技术选型规范
 ##数据库选型
 ###mysql 
-  https://dev.mysql.com/downloads/mysql/ 
-  版本>5.7.10 <8.0.0
+  https://dev.mysql.com/downloads/mysql/ </br>
+  版本>5.7.10 <8.0.0</br>
 ###redis
- 版本 >3.2.0  <4.0.0
+ 版本 >3.2.0  <4.0.0</br>
 ##数据库安全和事物
 1.原子性必须保证
 2.事务性必须保证
@@ -39,6 +39,9 @@ nodejs只提供代理不做业务逻辑，但提供拼接数据转protobuf到jso
 
 #rust语法规范
 官方规范
+
+#原型图设计
+Axure > 8.0
 
 #程序发布
 统一基于docker环境</br>
